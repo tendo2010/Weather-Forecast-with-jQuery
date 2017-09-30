@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Forecast</title>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+    <nav class="light-blue accent-2" role="navigation">
+        <div class="container">
+            <a href="#" class="brand-logo"><i class="material-icons">brightness_5</i>Weather Forecast</a>
+        </div>
+    </nav>
+
+    <br><br><br>
+    <div class="container">
+        <div class="container">
+            <div class="input-field col s6">
+                <input id="city" type="text" class="validate">
+                <label for="city">City</label>
+                <center>
+                    <button class="btn waves-effect light-blue accent-2" id="loadwebapi"><i class="material-icons right">send</i>Load Weather Data</button>
+                </center>
+
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="container">
+        <div class="container">
+            <section class="container">
+                <center>
+                    <div id="name"></div>
+                    <p id="icon"></p>
+                    <p id="temp" class=""></p>
+                    <p id="main"></p>
+                    <p id="description"></p>
+                </center>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
