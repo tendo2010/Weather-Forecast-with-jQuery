@@ -1,1 +1,4 @@
-# Weather-Forecast-with-jQuery
+# Weather Forecast with jQuery
+
+Quiz: 10%
+2 October 2017
